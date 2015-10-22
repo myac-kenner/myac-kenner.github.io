@@ -41,12 +41,12 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(30.04211, -90.23942), // New York
 
         // Disables the default Google Maps UI components
-        disableDefaultUI: true,
+        disableDefaultUI: false,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -54,7 +54,7 @@ function init() {
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 17
             }]
@@ -62,7 +62,7 @@ function init() {
             "featureType": "landscape",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 20
             }]
@@ -70,7 +70,7 @@ function init() {
             "featureType": "road.highway",
             "elementType": "geometry.fill",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 17
             }]
@@ -78,7 +78,7 @@ function init() {
             "featureType": "road.highway",
             "elementType": "geometry.stroke",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 29
             }, {
@@ -88,7 +88,7 @@ function init() {
             "featureType": "road.arterial",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 18
             }]
@@ -96,7 +96,7 @@ function init() {
             "featureType": "road.local",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 16
             }]
@@ -104,7 +104,7 @@ function init() {
             "featureType": "poi",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 21
             }]
@@ -113,7 +113,7 @@ function init() {
             "stylers": [{
                 "visibility": "on"
             }, {
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 16
             }]
@@ -122,7 +122,7 @@ function init() {
             "stylers": [{
                 "saturation": 36
             }, {
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 40
             }]
@@ -135,7 +135,7 @@ function init() {
             "featureType": "transit",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 19
             }]
@@ -143,7 +143,7 @@ function init() {
             "featureType": "administrative",
             "elementType": "geometry.fill",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 20
             }]
@@ -151,7 +151,7 @@ function init() {
             "featureType": "administrative",
             "elementType": "geometry.stroke",
             "stylers": [{
-                "color": "#000000"
+                "color": "#473F3D"
             }, {
                 "lightness": 17
             }, {
